@@ -12,8 +12,6 @@
     "start": "node server/server.js"
   },
   "dependencies": {
-    "@aws-sdk/client-dynamodb": "^3.348.0",
-    "@aws-sdk/lib-dynamodb": "^3.348.0",
     "@radix-ui/react-select": "^2.3.1",
     "better-sqlite3": "^12.11.1",
     "class-variance-authority": "^0.7.1",
@@ -27,6 +25,9 @@
     "react-dom": "^18.3.1",
     "react-leaflet": "^5.0.0",
     "tailwind-merge": "^3.6.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.1",
