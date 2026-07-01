@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import PlanRoute from './PlanRoute.jsx';
 import MapView from './MapView.jsx';
+import About from './About.jsx';
 
 
 function BackToTop() {
@@ -1143,7 +1144,12 @@ function App() {
         <button className={`tab-btn${activeTab === 'map' ? ' active' : ''}`} onClick={() => setActiveTab('map')}>
           Map
         </button>
+        <button className={`tab-btn${activeTab === 'about' ? ' active' : ''}`} onClick={() => setActiveTab('about')}>
+          About
+        </button>
       </div>
+
+      {activeTab === 'about' && <About />}
 
       {activeTab === 'plan' && (
         <PlanRoute spots={spots} userLocation={userLocation} setUserLocation={setUserLocation} starredIds={starredIds} toggleStar={toggleStar} planItems={planItems} setPlanItems={setPlanItems} />

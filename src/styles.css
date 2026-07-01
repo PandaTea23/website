@@ -3316,3 +3316,124 @@ button.primary {
   width: 72px;
   height: 72px;
 }
+
+/* ── About page ── */
+.about-page {
+  max-width: 620px;
+  margin: 32px auto;
+  padding: 0 16px 48px;
+}
+
+.about-receipt {
+  background: var(--paper);
+  border: 1px dashed var(--border);
+  border-radius: 4px;
+  padding: 32px 28px;
+  font-family: 'Courier Prime', monospace;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-store-name {
+  font-family: 'Special Elite', cursive;
+  font-size: 1.8rem;
+  letter-spacing: 0.08em;
+  color: var(--ink);
+}
+
+.about-store-sub {
+  font-size: 0.85rem;
+  color: rgba(42,36,32,0.55);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+.about-rule {
+  color: rgba(42,36,32,0.3);
+  font-size: 0.85rem;
+  margin: 20px 0;
+  letter-spacing: 0.05em;
+}
+
+.about-section {
+  margin: 4px 0;
+}
+
+.about-section-label {
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(42,36,32,0.45);
+  margin-bottom: 10px;
+}
+
+.about-body {
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: var(--ink);
+  margin: 0 0 12px;
+}
+
+.about-quote {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: var(--ink);
+  font-style: italic;
+  margin: 0 0 14px;
+  padding-left: 12px;
+  border-left: 3px solid var(--red);
+}
+
+.about-link {
+  color: var(--red);
+  text-decoration: none;
+  font-weight: 700;
+}
+.about-link:hover { text-decoration: underline; }
+
+.about-contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about-contact-item {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  text-decoration: none;
+  color: var(--ink);
+  transition: color 0.12s;
+}
+.about-contact-item:hover { color: var(--red); }
+
+.about-contact-label {
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(42,36,32,0.45);
+  flex-shrink: 0;
+  width: 70px;
+}
+
+.about-contact-value {
+  font-size: 0.9rem;
+}
+
+.about-footer-rule {
+  color: rgba(42,36,32,0.3);
+  font-size: 0.85rem;
+  margin: 24px 0 12px;
+  letter-spacing: 0.05em;
+}
+
+.about-footer-text {
+  text-align: center;
+  font-size: 0.75rem;
+  color: rgba(42,36,32,0.4);
+  letter-spacing: 0.08em;
+}
