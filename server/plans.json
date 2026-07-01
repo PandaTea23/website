@@ -1,0 +1,205 @@
+{
+  "6zrhex": {
+    "id": "6zrhex",
+    "startLabel": "",
+    "startLat": null,
+    "startLng": null,
+    "startTimeMinutes": 802,
+    "planDate": "2026-06-22",
+    "travelMode": "train",
+    "stopIds": [
+      "heytea",
+      "bad-butter",
+      "purple-pig"
+    ],
+    "durations": {
+      "purple-pig": 50
+    },
+    "manualOrder": null,
+    "createdAt": 1782152779183
+  },
+  "z9sax1": {
+    "id": "z9sax1",
+    "startLabel": "",
+    "startLat": null,
+    "startLng": null,
+    "startTimeMinutes": 1320,
+    "planDate": "2026-06-24",
+    "travelMode": "driving",
+    "planItems": [
+      {
+        "id": "ia2iet",
+        "type": "spot",
+        "spotId": "bad-butter",
+        "mode": "flexible",
+        "duration": 60
+      },
+      {
+        "id": "wep3s9",
+        "type": "spot",
+        "spotId": "purple-pig",
+        "mode": "flexible",
+        "duration": 60
+      }
+    ],
+    "endSameAsStart": true,
+    "endLabel": "",
+    "endLat": null,
+    "endLng": null,
+    "createdAt": 1782270008405
+  },
+  "xh7eno": {
+    "id": "xh7eno",
+    "startLabel": "",
+    "startLat": null,
+    "startLng": null,
+    "startTimeMinutes": 1320,
+    "planDate": "2026-06-24",
+    "travelMode": "driving",
+    "planItems": [
+      {
+        "id": "ia2iet",
+        "type": "spot",
+        "spotId": "bad-butter",
+        "mode": "flexible",
+        "duration": 60
+      },
+      {
+        "id": "wep3s9",
+        "type": "spot",
+        "spotId": "purple-pig",
+        "mode": "flexible",
+        "duration": 60
+      }
+    ],
+    "endSameAsStart": true,
+    "endLabel": "",
+    "endLat": null,
+    "endLng": null,
+    "createdAt": 1782270019984
+  },
+  "hckgqo": {
+    "id": "hckgqo",
+    "startLabel": "",
+    "startLat": null,
+    "startLng": null,
+    "startTimeMinutes": 1320,
+    "planDate": "2026-06-24",
+    "travelMode": "driving",
+    "planItems": [
+      {
+        "id": "ia2iet",
+        "type": "spot",
+        "spotId": "bad-butter",
+        "mode": "flexible",
+        "duration": 60
+      },
+      {
+        "id": "wep3s9",
+        "type": "spot",
+        "spotId": "purple-pig",
+        "mode": "flexible",
+        "duration": 60
+      }
+    ],
+    "endSameAsStart": true,
+    "endLabel": "",
+    "endLat": null,
+    "endLng": null,
+    "createdAt": 1782270029108
+  },
+  "s3igyh": {
+    "id": "s3igyh",
+    "startLabel": "8836, Major Avenue, Morton Grove, Niles Township, Cook County, Illinois, 60053, United States",
+    "startLat": 42.0419149,
+    "startLng": -87.7691404,
+    "startTimeMinutes": 600,
+    "planDate": "2026-06-24",
+    "travelMode": "driving",
+    "planItems": [
+      {
+        "id": "j2qtvs",
+        "type": "spot",
+        "spotId": "bayan-ko-diner",
+        "mode": "flexible",
+        "duration": 60
+      },
+      {
+        "id": "ia2iet",
+        "type": "spot",
+        "spotId": "bad-butter",
+        "mode": "flexible",
+        "duration": 60
+      },
+      {
+        "id": "wep3s9",
+        "type": "spot",
+        "spotId": "purple-pig",
+        "mode": "flexible",
+        "duration": 60
+      },
+      {
+        "id": "axesx0",
+        "type": "spot",
+        "spotId": "heytea",
+        "mode": "flexible",
+        "duration": 60
+      },
+      {
+        "id": "3ci6vq",
+        "type": "spot",
+        "spotId": "la-scarola",
+        "mode": "flexible",
+        "duration": 60
+      }
+    ],
+    "endSameAsStart": true,
+    "endLabel": "",
+    "endLat": null,
+    "endLng": null,
+    "createdAt": 1782314102090
+  },
+  "wu57kc": {
+    "id": "wu57kc",
+    "startLabel": "AMLI 900, 900, South Clark Street, Dearborn Park, Loop, Chicago, South Chicago Township, Cook County, Illinois, 60605, United States",
+    "startLat": 41.8703311,
+    "startLng": -87.6310539,
+    "startTimeMinutes": 1320,
+    "planDate": "2026-06-24",
+    "travelMode": "driving",
+    "planItems": [
+      {
+        "id": "b4j0ln",
+        "type": "spot",
+        "spotId": "purple-pig",
+        "mode": "flexible",
+        "duration": 90
+      },
+      {
+        "id": "ia2iet",
+        "type": "spot",
+        "spotId": "bad-butter",
+        "mode": "flexible",
+        "duration": 60
+      },
+      {
+        "id": "9dg4b2",
+        "type": "placeholder",
+        "label": "Break",
+        "duration": 45
+      },
+      {
+        "id": "fy097v",
+        "type": "spot",
+        "spotId": "heytea",
+        "mode": "fixed",
+        "duration": 30
+      }
+    ],
+    "endSameAsStart": true,
+    "endLabel": "",
+    "endLat": null,
+    "endLng": null,
+    "createdAt": 1782321079112
+  }
+}
