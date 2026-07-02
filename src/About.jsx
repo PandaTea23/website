@@ -33,12 +33,10 @@ export default function About() {
           <div className="about-section-label">GET IN TOUCH</div>
           <div className="about-contact-list">
             <a href="mailto:1104vincentwu@gmail.com" className="about-contact-item">
-              <span className="about-contact-label">EMAIL</span>
-              <span className="about-contact-value">1104vincentwu@gmail.com</span>
+              1104vincentwu@gmail.com
             </a>
             <a href="https://linkedin.com/in/vinwu1" target="_blank" rel="noopener noreferrer" className="about-contact-item">
-              <span className="about-contact-label">LINKEDIN</span>
-              <span className="about-contact-value">vinwu1</span>
+              linkedin.com/in/vinwu1
             </a>
           </div>
         </div>

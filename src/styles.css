@@ -3398,31 +3398,17 @@ button.primary {
 .about-contact-list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 8px;
 }
 
 .about-contact-item {
-  display: flex;
-  align-items: baseline;
-  gap: 14px;
+  display: block;
+  font-size: 0.92rem;
   text-decoration: none;
-  color: var(--ink);
-  transition: color 0.12s;
+  color: var(--red);
+  transition: opacity 0.12s;
 }
-.about-contact-item:hover { color: var(--red); }
-
-.about-contact-label {
-  font-size: 0.72rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: rgba(42,36,32,0.45);
-  flex-shrink: 0;
-  width: 70px;
-}
-
-.about-contact-value {
-  font-size: 0.9rem;
-}
+.about-contact-item:hover { opacity: 0.7; }
 
 .about-footer-rule {
   color: rgba(42,36,32,0.3);
