@@ -11,7 +11,7 @@ export default function About() {
 
         <div className="about-section">
           <p className="about-body">
-            I work on growth at <a href="https://platepost.com" target="_blank" rel="noopener noreferrer" className="about-link">PlatePost</a> — a food platform where I've helped grow our Instagram 5×, produced videos with over 500k impressions and individual videos crossing 100k views, and secured brand partnerships through outreach. I also work on the product side, refining the app and making sure how we build and how we market stay in sync.
+            I'm Vincent — I work in food tech, write about food, and built a tool to find it. Growth and product at <a href="https://platepost.com" target="_blank" rel="noopener noreferrer" className="about-link">PlatePost</a> by day, documenting Chicago one meal at a time by night. The Ledger is my personal shortlist of spots worth visiting. The blog is where I think out loud about food, culture, and everything in between.
           </p>
         </div>
 
